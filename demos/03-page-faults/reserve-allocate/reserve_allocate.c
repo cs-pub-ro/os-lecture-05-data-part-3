@@ -35,7 +35,7 @@ int main(void)
 		page_start[0] = 'a';
 	}
 
-	/* Touch first byte of pages. */
+	/* Touch last byte of pages. */
 	wait_for_input("before touching last byte of pages");
 	printf("Touching %u pages.\n\n", NUM_PAGES);
 	for (unsigned int i = 0; i < NUM_PAGES; i++) {
